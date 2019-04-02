@@ -17,7 +17,7 @@ mongoose.connect(db)
 .catch(err => console.log(err));
 
 
-app.get('/', (req, res) => res.send('hello'));
+app.get('/', (req, res) => res.send('hello world'));
 
 
 // use routes 
